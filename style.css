@@ -238,6 +238,10 @@
    .description li i {
      color: #30B868;
    }
+   .description li{
+    margin-bottom: 16px;
+   }
+   
  
  
   

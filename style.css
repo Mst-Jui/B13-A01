@@ -6,6 +6,19 @@
 }
 
 /* common class */
+/* nav .btn-nav{
+  color: #fff;
+  padding: 12px 16px;
+  background-color: #469165;
+  font-size: 16px;
+  border-radius: 6px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+} */
+ .nav-btn{
+  margin-top: 24px;
+  margin-bottom: 24px;
+ }
 .btn {
   color: #fff;
   background-color: #469165;
@@ -45,6 +58,8 @@
 /* header styling */
 
 .navbar {
+  width: 100%;
+  max-width: 90%;
   display: flex;
   justify-content: space-around;
   vertical-align: center;
@@ -195,3 +210,44 @@
   gap: 16px;
   box-shadow: 0 0 4px #00000023;
 }
+
+
+
+
+/* Your second brain, structured by design. */
+.section-message .sub-title{
+  color: #469165;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+  .section-message .title{
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  .section-message p{
+    color: #627382;
+    margin-bottom: 40px;
+  }
+
+   .description{
+     list-style: none;
+   }
+   .description li i {
+     color: #30B868;
+   }
+ 
+ 
+  
+  .second-brain{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    
+
+  }
